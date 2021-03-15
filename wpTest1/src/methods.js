@@ -1,6 +1,13 @@
+const select = document.querySelector('#disk');
+const resultBox = document.querySelector('.mainform__ini-results');
 
 export function displayBtn() {
-    console.log('si sirve');
-    alert('si sirve el btn');
+    
+
+    if (select.value == 'In Rainbows') {
+        resultBox.innerHTML = 'asd'
+    } else {
+        
+    }
 };
 

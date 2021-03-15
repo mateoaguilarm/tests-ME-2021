@@ -1,29 +1,25 @@
 h1 {
     color: aliceblue;
     font-size: 35px;
+    @include font;
 }
 
 .title-1 {
-    color: yellow;
-    @include font;
+    color: #F6EC40;
 }
 
 .title-2 {
-    color: rgb(63, 63, 248);
-    @include font;
+    color: #4586C7;
 }
 
 .title-3 {
-    color: orangered;
-    @include font;
+    color: #F56323;
 }
 
 .title-4 {
-    color: green;
-    @include font;
+    color: #46B54C;
 }
 
 .title-5 {
-    color: orange;
-    @include font;
+    color: #EAB321;
 }
