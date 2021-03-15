@@ -1,5 +1,5 @@
 import { displayBtn } from './methods';
-import './styles.css'
+import './styles.scss'
 
 const btn1 = document.querySelector('#btn-1');
 
