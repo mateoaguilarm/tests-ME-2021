@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Roboto Mono', monospace;
-}
+@import './styles/mixins';
+@import './styles/maintitle';
+@import './styles/form';
 
 .mainform__ini {
     width: 100%;
@@ -19,64 +19,4 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-h1 {
-    color: aliceblue;
-    font-size: 35px;
-}
-
-.title-1 {
-    color: yellow;
-}
-
-.title-2 {
-    color: rgb(63, 63, 248);
-}
-
-.title-3 {
-    color: orangered;
-}
-
-.title-4 {
-    color: green;
-}
-
-.title-5 {
-    color: orange;
-}
-
-.mainform__ini-artform {
-    width: 100%;
-    height: 600px;
-    background-color: rgba(165, 42, 42, 0.76);
-    display: flex;
-}
-
-.mainform__ini-form {
-    width: 50%;
-    height: 500px;
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-}
-
-.mainform__ini-form-box {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.inputs {
-    height: 40px;
-}
-
-#btn-1 {
-    margin: 10px;
-}
-
-.mainform__ini-results {
-    width: 50%;
-    height: 500px;
-    background-color: gainsboro;
 }

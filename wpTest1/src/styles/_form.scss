@@ -1,0 +1,34 @@
+.mainform__ini-artform {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(165, 42, 42, 0.76);
+    display: flex;
+}
+
+.mainform__ini-form {
+    width: 50%;
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainform__ini-form-box {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    height: 40px;
+}
+
+#btn-1 {
+    margin: 10px;
+}
+
+.mainform__ini-results {
+    width: 50%;
+    height: 500px;
+    background-color: gainsboro;
+}
