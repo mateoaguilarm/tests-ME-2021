@@ -20,3 +20,48 @@ body {
     border:0;
 }
 
+.main-cont-2 {
+    background-color: rgba(206, 206, 206, 0.493);
+    width: 100%;
+    height: 300px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0 16px 40px rgba(0,0,0,0.12);
+    border:0;
+}
+
+#btn1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: azure;
+    border-radius: 40px;
+    transition: 0.4s;
+    cursor: pointer;
+    border: 0;
+}
+
+/* hovers */
+
+#btn1:hover {
+    font-size: 40px;
+    width: 250px;
+    height: 130px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+/* mods */
+
+.cont-1-bgcolor {
+    background-color: rgb(27, 27, 27);
+    color: azure;
+}
+
+.cont-2-bgcolor {
+    background-color: rgb(10, 10, 10);
+    color: azure;
+}
