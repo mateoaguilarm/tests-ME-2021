@@ -1,3 +1,9 @@
 In main branch are some diferent files, that now, for webpack tests is the new branch "webpackTests".
 
 Also there is another branch for react tests, so this main branch could be used to merge final cool projects.
+
+
+April 4, 2021 /
+
+On recent commit the folders on main branch were deleted.
+
