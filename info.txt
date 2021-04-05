@@ -1,6 +1,6 @@
-In main branch are some diferent files, that now, for webpack tests is the new branch "webpackTests".
+In main branch would be different final test projects. 
 
-Also there is another branch for react tests, so this main branch could be used to merge final cool projects.
+In other branches there are diferent projects in process, distinguished by their branch name.
 
 
 April 4, 2021 /
