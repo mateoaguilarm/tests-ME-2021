@@ -1,11 +1,18 @@
-
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Bootstrap from './components/Bootstrap';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
+      <div className="App">
+        <Switch>
+          <Route path='/bootstrap' component={Bootstrap}/>
 
-    </div>
+        </Switch>
+      </div>
+    </BrowserRouter>
+    
   );
 }
 
