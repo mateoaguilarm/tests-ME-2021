@@ -5,4 +5,30 @@
 
 .card {
     margin: 80px;
+    box-shadow:0 12px 12px rgba(10,16,20,.15), 0 0 52px rgba(10,16,20,.12);
+    border:0;
 }
+
+.btn-primary-card {
+	width: 80%;
+	height: 50px;
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #353232, #aaaaaa, #161616);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Roboto Mono', monospace;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+	box-shadow:0 16px 40px rgba(0,0,0,0.12);
+    border:0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.btn-primary-card:hover {
+    background-position: right;
+}
+

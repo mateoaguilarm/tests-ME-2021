@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import NavbarView from './Views/NavbarView';
 import Carousel from './components/Carousel';
 import Card from './components/Card';
+import LogIn from './components/LogIn';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           <Route path='/pricing'>
             <NavbarView />
               <Card />
+          </Route>
+          <Route path='/login'>
+            <LogIn />
           </Route>
         </Switch>
       </div>

@@ -19,7 +19,7 @@ function Navbar() {
                 <Link className="nav-link" to="/pricing">Pricing</Link>
               </li>
               <li className="nav-item logLink">
-                <Link className="nav-link" to="/features">Sign In</Link>
+                <Link className="nav-link" to="/login">Sign In</Link>
               </li>
             </ul>
           </div>
