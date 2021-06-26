@@ -1,7 +1,19 @@
 const mongoose = require(`mongoose`);
 
-const userSchema = new mongoose.Schema({
-    name: String,
-    price: Number,
-    stock: Number
+const articleSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    price: {
+        type: Number,
+        required: true,
+        default: 0
+    },
+    stock: {
+        type: Number,
+        required: true,
+        default: 0
+    },
+    
 })
